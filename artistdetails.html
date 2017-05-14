@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <link rel = "stylesheet" href = "javajam.css"/> 
+    <script type="text/javascript" src="music.js"></script>
+  </head>
+  <body id = "wrapper" onload="initialize();">
+  <div id = "navbar">
+    
+    <img class ="image" src = "javajamlogo.jpg"> 
+  
+    <nav role="navigation">
+    <ul>
+      
+          <a href="home.html">   Home  </a> &nbsp          
+          <a href="menu.html">  Menu   </a> &nbsp     
+          <a href="music.html">  Music  </a> &nbsp
+          <a href="jobs.html">  Jobs </a>
+        </ul>
+      </nav>
+    </div>
+    <div id = "content">
+      <h1> <strong> JavaJam Coffee House </strong></h1>
+      <div class= 'overflow'>
+    <form>
+    
+       <label>Artist name: </label> <input type="text" id="form-input"/>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+    
+    <div id="output">&nbsp;</div> 
+    <div id="output2">&nbsp;</div>
+    <div id="output3">&nbsp;</div>
+    </div>
+    </div>
+  </body>
+  <footer>
+     <p><i> Copyright &copy 2016 JavaJam Coffee House<br>
+     <font color="blue"> <u> aishwarya@rajagopalan.com</u></font></i></p>
+  </footer>
+</html>
